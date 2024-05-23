@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 42%;
+}
+
+body {
+    display: block;
+}
+
+header {
+    height: 75vh;
+}
+
+.img {
+    max-width: 22%;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.img1,
+.img3 {
+    max-width: 80%;
+}
+
+.head1 {
+    position: absolute;
+    left: 4.5rem;
+    top: 20rem;
+    color: white;
+    text-align: center;
+}
+
+.mobile::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.link {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 4.5rem;
+    text-decoration: none;
+    left: 60rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: small;
+    top: 3.8rem;
+}
+
+.head2 {
+    position: absolute;
+    top: 50rem;
+    left: 5rem;
+}
+
+div.head1 p {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+#text  {
+    height: 7rem;
+    width: 65rem;
+    border: 0.05rem solid white;
+    opacity: 0.6;
+    color: white;
+    background-color: black;
+    border-radius: 0.3rem;
+    margin-bottom: 2.5rem;
+}
+
+button  {
+    height: 6rem;
+    width: 20rem;
+    border:none;
+    color: white;
+    background-color: #e50914;
+    font-size: large;
+    border-radius: 0.3rem;
+    margin-left: 23rem;
+}
+
+.section {
+    position: relative;
+    height: 75vh;
+}
+
+.section-2 {
+    position: absolute;
+}
+
+.section-1 {
+    position: absolute;
+    left: 10rem;
+    top: 8rem;
+}
+
+div.section-1 p  {
+    position: absolute;
+    left: -8rem;
+    width: 70rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    line-height: 2.8rem;
+    color: white;
+}
+
+.img1 {
+    position: absolute;
+    left: 8rem;
+    top: 28rem;
+}
+
+.phone {
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+    text-align: center;
+}
+
+.img2 {
+    width: 52%;
+    position: absolute;
+    left: 17rem;
+    top: 25rem;
+}
+
+div.phone p {
+    font-size: 2.4rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: white;
+}
+
+.relative1 {
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+}
+
+.absolute1 {
+    position: absolute;
+    width: 100vw;
+    top: 1rem;
+}
+
+.watch {
+    position: absolute;
+    left: 7.5rem;
+    top: 8rem;
+    text-align: center;
+    display:inline-block;
+}
+
+div.watch h1 {
+    color: white;
+    font-size: 4.5rem;
+    font-family: sans-serif;
+    margin-bottom: 2.5rem;
+}
+
+div.watch p {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.line-break::after {
+    content: none;
+    white-space: pre;
+}
+
+.img3 {
+    position: absolute;
+    left: 10rem;
+    top: 28rem;
+}
+
+.kids  {
+    position: absolute;
+    left: 5rem;
+    top: 7rem;
+    text-align: center;
+}
+
+div.kids p {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    line-height: 2.6rem;
+}
+
+.relative2 {
+    position: relative;
+    width: 100vw;
+    height: 115vh;
+    background-color: #0000;
+}
+
+.absolute2 {
+    position: absolute;
+    width: 100vw;
+    top: 1rem;
+}
+
+.faq {
+    margin-top: 10rem;
+}
+
+.faq1 {
+    position: absolute;
+    left: 7rem;
+    color: white;
+    font-size: 4.5rem;
+    font-family: sans-serif;
+    top: 4rem;
+}
+
+article {
+    position: absolute;
+    border: 0.06rem solid black;
+    width: 90%;
+    height: 9rem;
+    left: 3rem;
+    background-color: #2d2d2d;
+}
+
+.fa-solid {
+    position: absolute;
+    left: 60rem;
+    top: 3rem;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+article h1 {
+    position: absolute;
+    color: white;
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    left: 3rem;
+    top: 3rem;
+    font-weight: 100;
+}
+
+.faq2 {
+    position: absolute;
+    top: 84rem;
+    left: 10rem;
+}
+
+div.faq2 p {
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.faq3 {
+    position: absolute;
+    top: 95rem;
+    left: 3.8rem;
+}
+
+
+footer {
+    color: #585a5c;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer1 {
+    position: absolute;
+    left: 4rem;
+    top: 2rem;
+}
+
+div.footer1 a {
+    color: #585a5c;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer2 {
+    position: absolute;
+    left: 35rem;
+    top:7.5rem;
+}
+
+div.footer2 a {
+    color: #585a5c;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer3 {
+    position: absolute;
+    left: 4rem;
+    top: 24rem;
+}
+
+div.footer3 a {
+    color: #585a5c;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer4 {
+    position: absolute;
+    left: 35rem;
+    top: 24rem;
+}
+
+div.footer4 a {
+    color: #585a5c;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer5 {
+    position: absolute;
+    top: 42rem;
+    left: 4rem;
+}
+
+#select {
+    width: 10rem;
+    height: 3rem;
+    background-color: black;
+    color: #585a5c;
+}

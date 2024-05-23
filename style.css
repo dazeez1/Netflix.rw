@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a:link {
+    font-size: 2rem;
+    color: red;
+}
+
+.link {
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+li  {
+    padding: 4rem;
+    margin-right: 12rem;
+}
+
+.img {
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+
+header {
+    background-image: url(images/background.jpeg);
+    background-color: rgba(0, 0, 0, 0.9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.head1 {
+    position: absolute;
+    left: 30rem;
+    top: 30rem;
+    color: white;
+    text-align: center;
+}
+
+.head2 {
+    position: absolute;
+    top: 46rem;
+    left: 43rem;
+}
+
+div.head1 h1 {
+    font-size: 4.5rem;
+    font-family: sans-serif;
+}
+
+div.head1 p {
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+#text  {
+    height: 4.8rem;
+    width: 35rem;
+    border: 0.05rem solid white;
+    opacity: 0.6;
+    color: white;
+    background-color: black;
+    border-radius: 0.3rem;
+}
+
+button  {
+    height: 4.8rem;
+    width: 15rem;
+    border:none;
+    color: white;
+    background-color: #e50914;
+    font-size: large;
+    border-radius: 0.3rem;
+}
+
+.section7-2 {
+    position: absolute;
+    border-top: 0.6rem solid gray;
+    width: 100vw;
+}
+
+.section {
+    position: relative;
+    height: 75vh;
+}
+
+.section-2 {
+    position: absolute;
+    width: 100vw;
+}
+
+.section-1 {
+    position: absolute;
+    left: 15rem;
+    top: 23rem;
+}
+
+.img1 {
+    position: absolute;
+    left: 75rem;
+    top: 11rem;
+}
+
+div.section-1 h1  {
+    font-size: 4.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+div.section-1 p  {
+    font-size: 2.1rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    line-height: 2.8rem;
+    color: white;
+}
+
+.relative {
+    position: relative;
+    width: 100vw;
+    height: 75vh;
+}
+
+.absolute {
+    position: absolute;
+    width: 100vw;
+    top: 1rem;
+}
+
+.img2 {
+    position: absolute;
+    left: 23rem;
+    top: 9rem;
+}
+
+.phone {
+    position: absolute;
+    left: 72rem;
+    top: 20rem;
+}
+
+div.phone h1 {
+    font-size: 4.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+div.phone p {
+    font-size: 2.1rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    color: white;
+}
+
+.line-break::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.relative1 {
+    position: relative;
+    width: 100vw;
+    height: 55vh;
+}
+
+.absolute1 {
+    position: absolute;
+    width: 100vw;
+    top: 1rem;
+}
+
+.watch {
+    position: absolute;
+    left: 27rem;
+    top: 8rem;
+}
+
+div.watch h1 {
+    color: white;
+    font-size: 4.5rem;
+    font-family: sans-serif;
+}
+
+div.watch p {
+    color: white;
+    font-size: 2.1rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.img3 {
+    position: absolute;
+    left: 15rem;
+    top: 8rem;
+}
+
+.kids  {
+    position: absolute;
+    left: 73rem;
+    top: 20rem;
+}
+
+div.kids h1 {
+    color: white;
+    font-size: 4.5rem;
+    font-family: sans-serif;
+}
+
+div.kids p {
+    color: white;
+    font-size: 2.1rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    line-height: 2.6rem;
+}
+
+.relative2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000;
+}
+
+.absolute2 {
+    position: absolute;
+    width: 100vw;
+    top: 1rem;
+}
+
+article {
+    position: absolute;
+    border: 0.06rem solid black;
+    width: 80%;
+    height: 7rem;
+    left: 14rem;
+    background-color: #2d2d2d;
+}
+
+article:hover {
+    background-color: #e50914;
+}
+
+.fa-solid {
+    position: absolute;
+    left: 110rem;
+    top: 2.1rem;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.faq {
+    margin-top: 10rem;
+}
+
+.faq1 {
+    position: absolute;
+    left: 42.4rem;
+    color: white;
+    font-size: 4.5rem;
+    font-family: sans-serif;
+    top: 4rem;
+}
+
+article h1 {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    left: 3rem;
+    top: 2.3rem;
+    font-weight: 100;
+}
+
+.faq2 {
+    position: absolute;
+    top: 63rem;
+    left: 40rem;
+}
+
+div.faq2 p {
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.faq3 {
+    position: absolute;
+    top: 66.5rem;
+    left: 44rem;
+}
+
+footer {
+    color: #585a5c;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer1 {
+    position: absolute;
+    left: 10rem;
+    top: 5rem;
+}
+
+div.footer1 a {
+    color: #585a5c;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer2 {
+    position: absolute;
+    left: 38rem;
+    top: 8.5rem;
+}
+
+div.footer2 a {
+    color: #585a5c;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer3 {
+    position: absolute;
+    left: 68rem;
+    top: 8.5rem;
+}
+
+div.footer3 a {
+    color: #585a5c;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer4 {
+    position: absolute;
+    left: 94rem;
+    top: 8.5rem;
+}
+
+div.footer4 a {
+    color: #585a5c;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer5 {
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+}
+
+#select {
+    width: 10rem;
+    height: 3rem;
+    background-color: black;
+    color: #585a5c;
+}
